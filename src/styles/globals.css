@@ -83,6 +83,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  
 }
 
 body {
@@ -105,3 +106,113 @@ a {
     color-scheme: dark;
   }
 }
+.card{
+  width:80%;
+  height:100px;
+  margin-left:2.5%;
+  margin-top:20px;
+  margin-right:2.5%;
+  border:25px solid black;
+}
+.card img{
+  width: 98%;
+  height: 350px;
+  margin:auto;
+ 
+}
+.card button{
+  border-radius:15%;
+   background-color: black;
+   color:white;
+   width:100px
+}
+.container{
+ background-color: #f5f5ef;
+ 
+}
+footer{
+  width: 100%; 
+  background-color:  #f2f2f2;
+  margin-top: 5%;
+}
+.footer-list ul li{
+  list-style:none;
+}
+#header{
+width:100%;
+height:600px;
+/* background-color: red; */
+}
+#header img{
+  width:100%;
+  height:550px;
+  }
+  #header-heading{
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+padding-left:70%;
+padding-top:100px;
+    }
+    @-webkit-keyframes header-heading{
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+      }
+      
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      }
+    }
+  #homecard{
+    height:500px;
+    margin-bottom:100px;
+  }
+  #add-event{
+    width:80%;
+    margin-left:10%;
+    /* border:2px solid black; */
+    padding:10px;
+  }
+  #add-event h1{
+    text-align:center;
+  }
+  #add-event button{
+ border-radius:15%;
+   background-color: black;
+   color:white;
+   width:100px
+  }
+  /* #detail-div{
+    width:60%;
+    height:auto;
+  } */
+  #detail-image{
+    width:60%;
+    height:800px;
+    float:left;
+  }
+  #detail-image img{
+    width:100%;
+    height:650px;
+  }
+  #detailcard-des{
+    width:40%;
+    float:right;
+    height:800px;
+    background-color:  #f2f2f2;
+    padding-left:150px;
+  }
+  #detailcard-des button{
+    border-radius:15%;
+    background-color: black;
+    color:white;
+    width:100px
+  }
+
+  .row form input{
+margin-left:80%;
+  }
+  .row h1{
+    text-align:center;
+  }
